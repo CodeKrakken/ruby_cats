@@ -30,6 +30,10 @@ describe ImageFetcher do
       expect(subject.convert_info).to be_a(Hash)
     end
 
+    it 'stores the hash' do
+      expect(subject.info_hash).to be_a(Hash)
+    end      
+
   end
 
 end
