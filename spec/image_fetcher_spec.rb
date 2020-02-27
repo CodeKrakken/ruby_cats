@@ -36,4 +36,10 @@ describe ImageFetcher do
 
   end
 
+  describe '#extract_url' do
+
+    it 'extracts the url from the info hash' do
+      expect(subject.extract_url).to be_url
+    end
+  end
 end

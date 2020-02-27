@@ -4,4 +4,5 @@ image_fetcher.fetch
 image_fetcher.info_array
 image_fetcher.convert_info
 image_fetcher.info_hash
-image_fetcher.url
+image_fetcher.extract_url
+image_fetcher.image_url
