@@ -1,0 +1,25 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/student/Documents/Coding/Github Projects Part 3 - cashcow and beyond/ruby_cats/spec/image_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Documents/Coding/Github Projects Part 3 - cashcow and beyond/ruby_cats/lib/image.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1582805951
+  }
+}
