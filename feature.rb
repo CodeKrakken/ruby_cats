@@ -16,4 +16,4 @@ require 'selenium-webdriver'
 include Capybara::DSL
 Capybara.default_driver = :selenium
 visit('http://localhost:9292/')
-click_on("Clearly")
+click_button("Clearly")
