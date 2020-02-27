@@ -12,4 +12,12 @@ describe Image do
     expect(subject).to respond_to(:fetch)
   end
 
+  describe '#fetch' do
+    
+    it 'returns an array' do
+      result = subject.fetch
+      expect(subject.fetch).to be_an(Array)
+    end
+end
+
 end
