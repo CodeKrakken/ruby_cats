@@ -1,9 +1,20 @@
-<img src=<%= @image_fetcher.image_url %>>
-<br>
-<br>
-Another?
-<br>
-<br>
-<form action="/cat">
-  <input type="submit" value="Clearly">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <br>
+    <h1>Another?</h1>
+    <br>
+    <form action="/cat" height="30">
+      <input type="submit" value="Clearly">
+    </form>
+    <br><br>
+    <img src=<%= @image_fetcher.image_url %> height=400 border="20 px solid">
+  </body>
+</html>
+
