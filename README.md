@@ -21,6 +21,8 @@ You will need Ruby 2.6.3. To get it, visit https://www.ruby-lang.org/en/download
 To install the project:
 
 * `git clone https://github.com/CodeKrakken/ruby_cats.git`
+* `cd ruby_cats`
+* `bundle install`
 
 ## Usage
 
