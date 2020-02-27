@@ -24,9 +24,10 @@ To install the project:
 
 ## Usage
 
-* Run `rspec` in the parent folder to run the unit tests
-* Run `irb './feature.rb'` to run the feature test
-* To explore the programme, run
+* To run the unit tests - `rspec` 
+* to run the feature test - `irb './feature.rb'`
+* To run the frontend - `rackup` 
+* To explore the backend, run
 ```
 irb
 require './feature'
