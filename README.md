@@ -25,7 +25,7 @@ To install the project:
 ## Usage
 
 * To run the unit tests - `rspec` 
-* to run the feature test - `irb './feature.rb'`
+* to run the feature test - `irb feature.rb`
 * To run the frontend - `rackup` 
 * To explore the backend, run
 ```
