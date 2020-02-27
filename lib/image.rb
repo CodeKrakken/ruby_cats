@@ -8,7 +8,7 @@ class Image
     @key
   end
 
-  def retrieve
+  def fetch
   end
 
 end
