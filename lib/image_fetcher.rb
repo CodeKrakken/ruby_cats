@@ -11,8 +11,12 @@ class ImageFetcher
     @key
   end
 
+  def image_info
+    @image_info
+  end
+
   def fetch
-    JSON.parse(RestClient.get('https://api.thecatapi.com/v1/images/search', :headers => { 'x-api-key' => @key}))
+    @image_info = JSON.parse(RestClient.get('https://api.thecatapi.com/v1/images/search', :headers => { 'x-api-key' => @key}))
   end
 
 end
