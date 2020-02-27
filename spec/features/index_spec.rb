@@ -11,5 +11,10 @@ feature 'Testing Infrastructure' do
   scenario 'Can see Clearly button' do
     expect(page).to have_button "Clearly"
   end
+
+  scenario 'Clicking Clearly button returns a cat picture' do
+    click_button('Clearly')
+    expect(page).to have_content "Another?"
+  end
     
 end

@@ -3,6 +3,8 @@ require 'JSON'
 
 class ImageFetcher
 
+  attr_reader :image_url
+  
   def initialize(key)
     @key = key
   end
