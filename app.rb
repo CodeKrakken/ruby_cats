@@ -1,6 +1,10 @@
 require 'sinatra'
 set :session_secret, 'super secret'
 
-get '/' do
-  "Hello World!"
+class RubyCats < Sinatra::Base
+
+  get '/' do
+    "Hello World!"
+  end
+
 end
