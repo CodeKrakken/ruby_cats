@@ -13,13 +13,27 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+ENV['RACK_ENV'] = 'test'
+
+require File.join(File.dirname(__FILE__), '..', 'app.rb')
+require 'capybara'
+require 'capybara/rspec'
+require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
+
+Capybara.app = RubyCats
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
 ])
 SimpleCov.start
+
+RSpec::Matchers.define :be_url do |expected|
+  match do |actual|
+    URI.parse(actual) rescue false
+  end
+end
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -34,12 +48,6 @@ RSpec.configure do |config|
     # ...rather than:
     #     # => "be bigger than 2"
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
-  end
-
-  RSpec::Matchers.define :be_url do |expected|
-    match do |actual|
-      URI.parse(actual) rescue false
-    end
   end
 
   # rspec-mocks config goes here. You can use an alternate test double
