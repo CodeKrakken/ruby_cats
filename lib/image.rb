@@ -8,4 +8,7 @@ class Image
     @key
   end
 
+  def retrieve
+  end
+
 end
