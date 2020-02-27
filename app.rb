@@ -1,4 +1,5 @@
 require 'sinatra'
+require './lib/image_fetcher'
 set :session_secret, 'super secret'
 
 class RubyCats < Sinatra::Base
@@ -10,13 +11,11 @@ class RubyCats < Sinatra::Base
     erb :index
   end
 
-  get '/fetch_image' do
+  get '/cat' do
     @image_fetcher.fetch
     @image_fetcher.convert_info
     @image_fetcher.extract_url
-    "<img src=image_fetcher.image_url>
-    <br>
-    Another?"
+    erb :cat
   end
 
 end
