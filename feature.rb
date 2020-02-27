@@ -17,3 +17,4 @@ include Capybara::DSL
 Capybara.default_driver = :selenium
 visit('http://localhost:9292/')
 click_button("Clearly")
+click_button("Yeah go on then")
