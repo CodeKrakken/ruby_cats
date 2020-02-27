@@ -25,15 +25,16 @@ To install the project:
 ## Usage
 
 * Run `rspec` in the parent folder to run the unit tests
-* Run `irb './features/feature.rb'` to run the feature test
+* Run `irb './feature.rb'` to run the feature test
 * To explore the programme, run
 ```
 irb
-require './features/feature'
+require './feature'
 ```
-Screen shots:
 
 Screenshots
+
+
 <img width="1280" alt="Screenshot 2020-02-27 at 22 37 01" src="https://user-images.githubusercontent.com/52076323/75493999-21d75680-59b3-11ea-90e1-4fb2a9ae50d6.png">
 <img width="1280" alt="Screenshot 2020-02-27 at 22 37 11" src="https://user-images.githubusercontent.com/52076323/75494055-3d426180-59b3-11ea-90c7-7ad1900aa82b.png">
 
