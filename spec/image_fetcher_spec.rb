@@ -24,4 +24,12 @@ describe ImageFetcher do
 
   end
 
+  describe '#convert_info' do
+
+    it 'extracts the hash from the array' do
+      expect(subject.convert_info).to be_a(Hash)
+    end
+
+  end
+
 end
