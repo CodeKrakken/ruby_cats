@@ -1,8 +1,8 @@
-require 'image'
+require 'image_fetcher'
 
-describe Image do
+describe ImageFetcher do
 
-  subject = Image.new("0a6f645d-f9d6-471e-ae37-8191c3061914")
+  subject = ImageFetcher.new("0a6f645d-f9d6-471e-ae37-8191c3061914")
 
   before :each do
     allow(subject).to receive(:fetch).and_return([])
@@ -19,10 +19,9 @@ describe Image do
   describe '#fetch' do
     
     it 'returns an array' do
-      result = subject.fetch
-      puts result
       expect(subject.fetch).to be_an(Array)
     end
-end
+
+  end
 
 end

@@ -1,7 +1,7 @@
 require 'rest-client'
 require 'JSON'
 
-class Image
+class ImageFetcher
 
   def initialize(key)
     @key = key
