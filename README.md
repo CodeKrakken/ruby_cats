@@ -33,15 +33,22 @@ irb
 require './feature'
 ```
 
-Screenshots
+
+### Screenshots
 
 
 <img width="1280" alt="Screenshot 2020-02-27 at 22 37 01" src="https://user-images.githubusercontent.com/52076323/75493999-21d75680-59b3-11ea-90e1-4fb2a9ae50d6.png">
 <img width="1280" alt="Screenshot 2020-02-27 at 22 37 11" src="https://user-images.githubusercontent.com/52076323/75494055-3d426180-59b3-11ea-90c7-7ad1900aa82b.png">
 
-Feature Test
+
+### Feature Test
+
+
 <img width="1280" alt="Screenshot 2020-02-27 at 22 34 48" src="https://user-images.githubusercontent.com/52076323/75493912-e63c8c80-59b2-11ea-94a9-07d057425775.png">
 
-Unit Tests
+
+### Unit Tests
+
+
 <img width="1280" alt="Screenshot 2020-02-27 at 22 43 35" src="https://user-images.githubusercontent.com/52076323/75494091-564b1280-59b3-11ea-80a3-42c76b5208c2.png">
 
