@@ -1,4 +1,4 @@
-# ruby_cats
+# Ruby Cats
 
 Do you like cats? Here you can see a picture of a cat, and if you want to, another one! Repeat as required.
 
@@ -7,11 +7,11 @@ Do you like cats? Here you can see a picture of a cat, and if you want to, anoth
 ```
 As a cat fancier
 In order to see a cat
-I want to be able to request a cat
+I want to be able to accept the offer of a cat
 
 As a cat fancier
 In order to see another cat
-I want to be able to request another cat
+I want to be able to accept the offer of another cat
 ```
 
 ## Setup
