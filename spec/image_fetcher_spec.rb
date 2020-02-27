@@ -19,7 +19,7 @@ describe ImageFetcher do
     end
 
     it 'stores the array' do
-      expect(subject.image_info).to be_an(Array)
+      expect(subject.info_array).to be_an(Array)
     end
 
   end
