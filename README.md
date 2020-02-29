@@ -1,4 +1,4 @@
-# Ruby Cats
+# Cats-Cats-Cats
 
 Do you like cats? Here you can see a picture of a cat, and if you want to, another one! Repeat as required.
 
