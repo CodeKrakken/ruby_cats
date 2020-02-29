@@ -91,6 +91,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   capybara
   rest-client
   rubocop
